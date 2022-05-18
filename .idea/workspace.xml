@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="384758af-c6ba-4bf9-abf3-734b5ad3a1c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent_dir/Actor_Critic.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent_dir/Actor_Critic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent_dir/DQN.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent_dir/DQN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent_dir/Policy_Gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent_dir/Policy_Gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent_dir/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent_dir/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_env.ini" beforeDir="false" afterPath="$PROJECT_DIR$/my_env.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surveillance.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveillance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1REYOlvGIJehonagdA4lq54KHw3" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Autonomous_Navigation_Reinforcement_Learning/Tested_Models_ready_to_be_used/DQN/value_plot.py" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="reinforcement_learning_mobile_navigation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-i my_env.ini" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="384758af-c6ba-4bf9-abf3-734b5ad3a1c2" name="Default Changelist" comment="" />
+      <created>1567092465918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567092465918</updated>
+      <workItem from="1569233711112" duration="789000" />
+      <workItem from="1569240773943" duration="8514000" />
+      <workItem from="1569255508841" duration="6152000" />
+      <workItem from="1569271402293" duration="746000" />
+      <workItem from="1569312582873" duration="2090000" />
+      <workItem from="1569396457938" duration="4527000" />
+      <workItem from="1569409814636" duration="3185000" />
+      <workItem from="1569415479033" duration="9896000" />
+      <workItem from="1569485046688" duration="6840000" />
+      <workItem from="1569498168078" duration="768000" />
+      <workItem from="1569499092517" duration="24033000" />
+      <workItem from="1569588135085" duration="8656000" />
+      <workItem from="1569761723302" duration="20501000" />
+      <workItem from="1569838558821" duration="1104000" />
+      <workItem from="1569891061947" duration="2305000" />
+      <workItem from="1569923345896" duration="629000" />
+      <workItem from="1569959645496" duration="173000" />
+      <workItem from="1569960141089" duration="6739000" />
+      <workItem from="1570022375140" duration="10383000" />
+      <workItem from="1570091740981" duration="5616000" />
+      <workItem from="1570113766196" duration="10793000" />
+      <workItem from="1571234749156" duration="4971000" />
+      <workItem from="1571260917695" duration="176000" />
+      <workItem from="1571306224707" duration="17937000" />
+      <workItem from="1571398068455" duration="5760000" />
+      <workItem from="1571432281430" duration="9271000" />
+      <workItem from="1571441642302" duration="2623000" />
+      <workItem from="1571477667700" duration="15328000" />
+      <workItem from="1571566082489" duration="9580000" />
+      <workItem from="1571668240838" duration="10609000" />
+      <workItem from="1571707351503" duration="1452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

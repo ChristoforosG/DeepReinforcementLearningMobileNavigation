@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a1253b83-3768-467f-9289-a2774e65c5dc" name="spock" url="http://spock.deep.islab.ntua.gr">
+        <fileTransfer host="spock.deep.islab.ntua.gr" port="22" rootFolder="/data/data1/users/chrisgav" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,95 @@
+[environment]
+
+; simulation environment time step
+time_div = 0.1
+
+; number of robots
+num_of_robots = 1
+
+; boolean flag for fixed or random map (1 or 0)
+map_flag = 0
+
+; boolean flag for fixed or random end point (1 or 0)
+end_flag = 1
+
+; end point. Useless if end is random
+ending_point = 4.0 4.0
+
+; boolean flag for fixed or random start point (1 or 0)
+start_flag = 0
+
+; start point. Useless if start is random
+starting_point = 1.0 1.0 0.0
+
+; state: 1 = "position", 2 = "position + pose", 3 = "position + visual sensor input", 4 = "position + pose + visual sensor input"
+state = 1
+
+; reward type for each step that no event significant happens. 'step' = -1. 'relative position' = -(|dx| + |dy|)/max(|dx|+|dy|). 'relative pose'. 'angle': just the d_th
+reward_type = relative position
+
+; reward for obstacle collision
+collision_reward = -400
+
+; reward for finding goal
+goal_reward = 50
+
+; evaluation or training
+run_mode = training
+
+; simulation mode. ROS or default.
+simulation_mode = default
+
+; max steps per episode
+episode_steps = 200
+
+[agent]
+; algorithm. Choose from = {DQN, Policy Gradient}
+algorithm = Policy Gradient
+
+; state of the agent.{position, pose, sensor, number of other robots}
+state_space = position
+
+; action space of the agent. Fill the parameters.
+action_space = action_type= default velocity_x= [ -1.0 , 1.0 ] velocity_y_or_z= [ -1.0 , 1.0 ] discrete_actions= [ 1.0 , 0.0 ] - [ 0.0 , -1.0 ] - [ 0.0 , 1.0 ] - [ -1.0 , 0.0 ]
+
+; neural input.Position of robot(R0) - Position of other robots(Ri) - Sensor - Goal
+input = R0 Goal
+
+; neural output
+output = []
+
+; learning rate
+actor_learning_rate = 0.001
+
+critic_learning_rate = 0.001
+
+; epsilon - DQN
+epsilon = 1.0
+
+; epsilon_decay - DQN
+epsilon_decay = 0.999
+
+; epsilon minimum - DQN
+epsilon_min = 0.01
+
+; gamma
+gamma = 0.95
+
+; neural network actor. Policy: 48 relu 48 relu softmax categorical_crossentropy
+neural_network_actor = 24 relu 24 relu softmax categorical_crossentropy
+
+; neural network actor. DQN: 48 relu 48 relu linear mse
+neural_network_critic = 12 relu 12 relu linear mse
+
+; batch size for DQN experiance replay sampling
+batch_size = 200
+
+; number of episodes before the train of the NN, for policy gradient
+episodes_per_update = 3
+
+[surveillance]
+; success rate to consider the agent trained
+success_rate = 0.97
+
+; number of episodes for termination of the agent
+number_of_latest_episodes = 100
